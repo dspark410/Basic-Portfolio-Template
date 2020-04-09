@@ -1,64 +1,102 @@
 body{
     background-image:url('hotel-wallpaper.png');
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    margin: 0;    
+    padding: 0;
+    line-height: 150%;
+}
+p{
+    line-height: 200%;    
 }
 
-.header{
-    background-color: #ffffff;
-    border-color: #666;
-    border-style: solid;
-    width: 100%;
-    
-    
+a:visited{
+    color: #777;
+}
+
+a:hover{
+    color:black;
 }
 
 .container{
     width: 960px;
-    margin: auto;
+    margin: 0 auto;
     overflow: hidden;
 }
 
+.header{
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;    
+}
 .header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     color: #fff;
     float: left;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    margin: 0; 
 }
 
 .header ul{
     list-style: none;
-    float: right;
-    
+    float: right; 
+    margin-top: 29px; 
 }
 
 .header li{
     display: inline;
+    padding-right: 20px;
 }
 
 .header a{
     text-decoration: none;
 }
  
-.main{
-    border-color: #ccc;
-    border-style: solid;
+.main{ 
     background-color:#fff;
-    margin-top: 30px;
-    
+    margin-top: 40px; 
+    height: 600px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #ccc   
 }
+
+.aboutme{
+    border-bottom-style: solid;
+    border-bottom-color: #ccc;
+    padding: 30px;
+}
+
 .main h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     clear: both;
     color: #4aaaa5;
-    background-color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff; 
 }
 
+
+.main img{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.main p1{
+    float: right;
+}
+
+.main img{
+    margin-right: 20px;
+}
 .footer{
+    color: #fff;
     background-color: #666666;
     text-align: center;
-    border-top-style: solid;
-    border-top-color: #4aaaa5;
+    border-top: 10px solid #4aaaa5;
     position: fixed;
     bottom: 0;
-    width: 100%;
-
+    width: 100%;   
 }
