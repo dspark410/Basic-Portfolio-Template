@@ -1,0 +1,64 @@
+body{
+    background-image:url('hotel-wallpaper.png');
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header{
+    background-color: #ffffff;
+    border-color: #666;
+    border-style: solid;
+    width: 100%;
+    
+    
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header h1{
+    background-color: #4aaaa5;
+    color: #fff;
+    float: left;
+}
+
+.header ul{
+    list-style: none;
+    float: right;
+    
+}
+
+.header li{
+    display: inline;
+}
+
+.header a{
+    text-decoration: none;
+}
+ 
+.main{
+    border-color: #ccc;
+    border-style: solid;
+    background-color:#fff;
+    margin-top: 30px;
+    
+}
+.main h1{
+    clear: both;
+    color: #4aaaa5;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    background-color: #666666;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
