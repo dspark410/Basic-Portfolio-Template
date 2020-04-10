@@ -105,8 +105,8 @@ a:hover{
 
 .box h2{
     position: absolute;
-    bottom: 10px;
-    background-color: darkblue;
+    bottom: 20px;
+    background-color: #4aaaa5;
     text-align: center;
     width: 200px;
 }
