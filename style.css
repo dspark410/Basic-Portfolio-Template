@@ -5,6 +5,7 @@ body{
     margin: 0;    
     padding: 0;
     line-height: 150%;
+    height: 1500px;
 }
 p{
     line-height: 200%;    
@@ -28,7 +29,9 @@ a:hover{
     background-color: #ffffff;
     border-bottom: 1px solid #ccc;
     width: 100%;
-    box-sizing: border-box;    
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;    
 }
 .header h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -57,40 +60,77 @@ a:hover{
  
 .main{ 
     background-color:#fff;
-    margin-top: 40px; 
+    margin-top: 150px; 
     height: 600px;
     padding-left: 30px;
     padding-right: 30px;
     border: 1px solid #ccc   
 }
 
-.aboutme{
+.mainbox{
     border-bottom-style: solid;
     border-bottom-color: #ccc;
     padding: 30px;
+    
 }
 
 .main h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     clear: both;
     color: #4aaaa5;
-    background-color: #fff; 
+    background-color: #fff;
+    padding-left: 0px; 
 }
-
 
 .main img{
     float: left;
     width: 200px;
     height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
+.img2{
+    position: relative;
+}
+.img1{
+    position: absolute;
+    bottom: 0;
+
+}
 .main p1{
     float: right;
 }
 
-.main img{
-    margin-right: 20px;
+.form{
+    padding-left: 0px;
+    padding-bottom: 15px;  
 }
+
+.inputform{
+    padding-bottom: 15px;
+}
+
+.form label{
+    display: block;
+}
+
+.inputform input[type="text"], form textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.textarea{
+    height: 200px;
+}
+
+.submitbutton{
+    color: #fff;
+    background-color: #4aaaa5;
+    border: none;
+    padding: 10px 20px;
+}
+
 .footer{
     color: #fff;
     background-color: #666666;
@@ -99,4 +139,8 @@ a:hover{
     position: fixed;
     bottom: 0;
     width: 100%;   
+}
+.footer p{
+    position: relative;
+    bottom: 0;
 }
