@@ -31,7 +31,8 @@ a:hover{
     width: 100%;
     box-sizing: border-box;
     position: fixed;
-    top: 0;    
+    top: 0;
+    z-index: 2;    
 }
 .header h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -89,15 +90,27 @@ a:hover{
     margin-right: 20px;
     margin-bottom: 20px;
 }
-
-.img2{
-    position: relative;
+.imgcontainer{
+    display: inline;
 }
-.img1{
+
+.imgcontainer img{
+    float: none;
+}
+.box{
+    position: relative; 
+    width: 200px;
+    display: inline-table;
+}
+
+.box h2{
     position: absolute;
-    bottom: 0;
-
+    bottom: 10px;
+    background-color: darkblue;
+    text-align: center;
+    width: 200px;
 }
+
 .main p1{
     float: right;
 }
@@ -141,6 +154,6 @@ a:hover{
     width: 100%;   
 }
 .footer p{
-    position: relative;
-    bottom: 0;
+    margin-bottom: 0;
+    padding-top: 50px;
 }
