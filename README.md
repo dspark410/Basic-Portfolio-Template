@@ -1,7 +1,7 @@
 # MyPortfolio
 
 ## Description
-This porfolio showcases an aboutme page, a contact page, and all my other poftfolios I have worked on. This particular portolio was designed to reveal a little about myself, my badkground, and an easier way to contact me.
+This portfolio showcases an aboutme page, a contact page, and all my other portfolios I have worked on. This particular portfolio was designed to reveal a little about myself, my background, and an easier way to contact me.
 
 ## Usage
 Check out all my portfolios:
