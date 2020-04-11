@@ -6,8 +6,8 @@ This porfolio showcases an aboutme page, a contact page, and all my other poftfo
 ## Usage
 Check out all my portfolios:
 
-![Portfolio]("./assets/images/portfolio.jpg")
+![Portfolio](https://user-images.githubusercontent.com/62404086/79032597-b3161d00-7b5c-11ea-8fff-b90521dc203d.JPG)
 
 Email me:
 
-![Contact]("./assets/images/contact.jpg")
+![Contact](https://user-images.githubusercontent.com/62404086/79032600-b4dfe080-7b5c-11ea-87ed-0e29a95ab9d7.JPG)
