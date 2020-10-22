@@ -1,7 +1,7 @@
 # Basic Portfolio Template
 
 ## Description
-This portfolio showcases an aboutme page, a contact page, and all my other portfolios I have worked on. This particular portfolio was designed to reveal a little about myself, my background, and an easier way to contact me.
+This application showcases an aboutme, contact, and portfolio page template.
 
 ## Usage
 Check out all my portfolios:
